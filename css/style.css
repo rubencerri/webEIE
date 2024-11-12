@@ -3,18 +3,19 @@ body {
     background-color: #f8f9fa;
     color: rgb(30, 30, 30);
 }
-
+    
 .header, .footer {
-    background-color: rgb(30, 30, 30); /* Fondo oscuro */
+    background-color: rgb(129, 15, 15); /* Fondo oscuro */
     color: #ccc; /* Texto en gris claro */
 }
 
 .header .nav-link, .footer a {
-    color: #ccc;
+    font-weight: bold;
+    color: #180606;
 }
 
 .header .nav-link:hover, .footer a:hover {
-    color: #d9534f; /* Rojo suave en hover */
+    color: #d6d6d6; /* Rojo suave en hover */
 }
 
 /* Banner con imagen de fondo y botón centrado */
