@@ -1,0 +1,46 @@
+/* Estilos adicionales */
+body {
+    background-color: #f8f9fa;
+    color: rgb(30, 30, 30);
+}
+
+.header, .footer {
+    background-color: rgb(30, 30, 30); /* Fondo oscuro */
+    color: #ccc; /* Texto en gris claro */
+}
+
+.header .nav-link, .footer a {
+    color: #ccc;
+}
+
+.header .nav-link:hover, .footer a:hover {
+    color: #d9534f; /* Rojo suave en hover */
+}
+
+/* Banner con imagen de fondo y botón centrado */
+.banner-section {
+    background-image: url('../img/fondo.png');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative; /* Para centrar el botón */
+}
+
+.banner-section .main-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: #d9534f;
+    border: none;
+}
+
+.rounded-image-left {
+    border-radius: 0 45% 45% 0;
+    overflow: hidden;
+}
+.rounded-image-right {
+    border-radius: 45% 0% 0% 45%;
+    overflow: hidden;
+}
